@@ -35,7 +35,7 @@ int main() {
 
 	std::cout << "set1 초기 값 : "; print(set1);
 
-	set1.insert(2);
+	set1.insert(2); // unordered_set와 unordered_map는 중복된 키를 허용하지 않습니다
 	std::cout << "set1 초기값 : "; print(set1);
 
 	set1.insert(10);
